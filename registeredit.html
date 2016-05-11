@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<link href="css/reg.css" rel="stylesheet">
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:3px;
+
+    background-color: #8c8c8c
+;
+    height:35px;
+padding:2px;
+    width:100%;
+   
+word-spacing: 180px;
+    
+text-decoration:none;	      
+}
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 20%;
+    background-color:  #a6a6a6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    align:center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #a6a6a6;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+</style>
+<body>
+<div id="header">
+<img src="PicCollage.png"  style="width:100%;height:228px;">
+</div>
+<div id="nav">
+<h2>  <a href="file:///C:/Users/fowzin/Desktop/sam/about.html"> Aboutus</a>
+
+<a href="file:///C:/Users/fowzin/Desktop/sam/register.html">Form</a>
+</div>
+
+<body background="images.jpg">
+<form method="post" action="PHP/sameera.php">
+
+  First name:<br>
+  <input type="text" name="firstname">
+</br><br>
+  
+  
+Contact:<br>
+ <input type="text" name="mobile"></br><br>
+
+Type of Event:<br>
+<input type="radio" name="type" value="Banquet" checked> Banquet<br>
+  <input type="radio" name="type" value="Wedding"> Wedding<br>
+  <input type="radio" name="type" value="Live Concerts"> Live Concerts <br> 
+<input type="radio" name=" type" value=" Entertainment shows">  Entertainment shows<br>
+<input type="radio" name=" type" value=" Road shows"> Road shows<br>
+  
+<input type="radio" name=" type" value=" Destination Weddings">  Destination Weddings<br>
+
+</br><br>
+
+Address:<br><br>
+  firstline:<br><input type="text" name="firstline"><br>
+<br>city:<br><input type="text" name="city"><br>
+State:<br><select id="State" name="state">
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Goa">Goa</option>
+<option value="	Gujarat">Gujarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Jammu & Kashmir">Jammu & Kashmir</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="karnataka">Karnataka</option>
+<option value="Kerala">Kerela</option>
+<option value="MP">MP</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Punjab">Punjab</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="UP">UP</option>
+<option value="Uttarkhand>Uttarkhand</option>
+   </select>
+<br>
+<br>
+ Estimated Event Expenditure<br><select id="Estimated Event Expenditure" name="expenditure">
+      <option value="Under Rs.50,000">Under Rs.50,000</option>
+      <option value="Rs.50,000 to Rs.70,000">Rs.50,000 to Rs.70,000</option>
+      <option value="Rs.70,000 to Rs.1,00,000">Rs.70,000 to Rs.1,00,000</option>
+    </select><br><br>
+
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
